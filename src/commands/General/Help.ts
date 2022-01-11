@@ -23,8 +23,9 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-        Greeting i am Emilia a anime bot! 
-        My usable commands are listed below
+         *━━━━❰ Intro❱━━━━
+   Greeting i am Emilia a anime bot! 
+   My usable commands are listed below
    
          *━━━━❰ Commands ❱━━━━*
          
@@ -43,6 +44,7 @@ export default class Command extends BaseCommand {
 *Name: Emilia*
 *Prefix: ${this.client.config.prefix}*
 *Owner: ほら*
+ *━━━━━━━━━━━━━━━━*
  
  *Note: Use ${this.client.config.prefix}<Section_name> or <Section_number> to view the section info. E.g ${this.client.config.prefix}bot/1*
      
