@@ -16,7 +16,7 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        if (!(M.groupMetadata?.owner.split('@')[0] === M.sender.jid.split('@')[0]))
+        if (!(M.groupMetadata?.admins.split('@')[0] === M.sender.jid.split('@')[0]))
             return void M.reply('Only the group owner can use this command')
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
             return void M.reply("I can't remove without being an admin")
