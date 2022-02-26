@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
       command: "rob",
       description: "Are you a good robber?",
       aliases: ["rob"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}rob [tag/quote]`,
       baseXp: 30,
     });
