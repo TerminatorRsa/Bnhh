@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
       command: "gamble",
       description: "Test your gambling skill.",
       aliases: ["gamble"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}gamble <amount> [left/right] | ${client.config.prefix}gamble [left/right] <amount>`,
       baseXp: 30,
 
