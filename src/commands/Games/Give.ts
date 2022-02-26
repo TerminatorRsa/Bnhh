@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
       command: "give",
       description: "Give gold to someone.",
       aliases: ["give"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}give <amount> [tag/quote]`,
       baseXp: 30,
     });
