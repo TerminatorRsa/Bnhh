@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
       command: "slot",
       description: "Bet your gold here.",
       aliases: ["bet"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}bet <amount>`,
       baseXp: 30,
     });
