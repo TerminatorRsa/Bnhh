@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
     super(client, handler, {
       command: "daily",
       description: "Claims daily gold",
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}daily`,
       baseXp: 10,
     });
