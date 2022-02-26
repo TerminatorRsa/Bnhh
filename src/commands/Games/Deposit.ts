@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
       command: "deposit",
       description: "Deposit your gold to bank",
       aliases: ["deposit"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}deposit <amount>`,
       baseXp: 30,
     });
