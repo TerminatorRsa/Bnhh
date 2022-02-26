@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
       command: "withdraw",
       description: "Withdraws gold from the bank",
       aliases: ["withdraw"],
-      category: "economy",
+      category: "games",
       usage: `${client.config.prefix}withdraw <amount>`,
       baseXp: 30,
     });
