@@ -21,6 +21,16 @@ const UserSchema = new Schema({
         type: Number,
         required: true,
         default: 0
+    }, 
+    Coins: {
+        type: Number,
+        required: true,
+        default: 0
+    }, 
+    Bank: {
+        type: Number,
+        required: true,
+        default: 0
     }
 })
 export default model<IUserModel>('users', UserSchema)
